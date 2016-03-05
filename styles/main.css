@@ -1,0 +1,29 @@
+#password-strength-indicator {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 5px;
+    padding: 0 15px
+}
+
+#password-strength-indicator span {
+    display: block;
+    height: 5px;
+    margin-bottom: 2px;
+    width: 5px;
+    border-radius: 5px;
+    background: #EDF0F3
+}
+.has-feedback .form-control-feedback {
+    top: 0;
+    left: 0;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    color: #555
+}
+
+.has-feedback .form-control {
+    padding-left: 42.5px
+}
+

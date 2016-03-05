@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="ngPasswordApp">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2>Password Strength Indicator</h2>
+            <div class="form-group has-feedback">
+                <input password-strength-indicator class="form-control input-lg" type="password" name="password" ng-model="user.password" placeholder="Password" autocomplete="off">
+                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+            </div>
+        </div>
+    </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+<script src="scripts/password-strength-indicator.js"></script>
+</body>
+</html>
