@@ -5,7 +5,7 @@ Password strength indicator in an angular directive
 ## Examples
 See `index.html` in the respository.
 [Live example] [live-example]
-[live-example]: https://sourabhagrawal1900.github.io/password-strength-indicator
+[live-example]: https://sourabhagrawal1900.github.io/
 
 ## Usage
 
