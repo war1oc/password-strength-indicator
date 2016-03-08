@@ -9,7 +9,7 @@
         "angular-scenario": "~1.4.0"
     },
     "main": [
-        "./dist/scripts/password-strength-indicator.js"
+        "./scripts/password-strength-indicator.js"
     ],
    
     "ignore": []
