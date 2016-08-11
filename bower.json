@@ -1,6 +1,6 @@
 {
     "name": "password-strength-indicator",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "dependencies": {
         "angular": "~1.4.0"
     },
@@ -11,6 +11,6 @@
     "main": [
         "./scripts/password-strength-indicator.js"
     ],
-   
+
     "ignore": []
 }
