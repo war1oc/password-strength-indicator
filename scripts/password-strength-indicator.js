@@ -109,12 +109,12 @@
 						var c = measureStrength(ngModel.$modelValue);
 						if (ngModel.$modelValue.length > options.minLength && c > 4) {
 							angular.forEach(strongest, function(el) {
-								el.style.backgroundColor = '#039FD3';
+								el.style.backgroundColor = '#72B209';
 							});
 
 						} else if (ngModel.$modelValue.length > options.minLength && c > 3) {
 							angular.forEach(strong, function(el) {
-								el.style.backgroundColor = '#72B209';
+								el.style.backgroundColor = '#039FD3';
 							});
 						} else if (ngModel.$modelValue.length > options.minLength && c > 2) {
 							angular.forEach(weak, function(el) {
@@ -134,4 +134,3 @@
 		};
 	}
 })();
-
